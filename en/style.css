@@ -1,0 +1,54 @@
+/* Banner Layout */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3dff5a;
+    padding: 20px;
+    background: rgba(0, 20, 0, 0.9);
+    margin-bottom: 30px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    border: 2px solid #3dff5a;
+}
+
+.profile-desc {
+    flex: 1;
+    padding: 0 30px;
+    color: #a3ffac;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    filter: invert(1); /* Makes black icons white/green */
+}
+
+/* Timeline Style */
+.timeline {
+    border-left: 2px solid #3dff5a;
+    padding-left: 20px;
+    margin: 40px 0;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    border: 1px solid #3dff5a;
+    padding: 10px;
+    background: rgba(61, 255, 90, 0.1);
+}
