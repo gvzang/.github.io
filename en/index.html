@@ -1,1 +1,49 @@
-<h1>English Portfolio</h1>
+<header class="banner">
+    <div class="profile-photo">
+        <img src="../images/your-photo.jpg" alt="Profile Photo">
+    </div>
+
+    <div class="profile-desc">
+        <h2>Your Name</h2>
+        <p>Mechanical Engineer specializing in Thermofluids & Python development.</p>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://linkedin.com/in/yourprofile"><img src="../icons/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/yourusername"><img src="../icons/github.png" alt="GitHub"></a>
+        <a href="#"><img src="../icons/youtube.png" alt="YouTube"></a>
+    </div>
+</header>
+
+<section class="timeline">
+    <h3>Experience Timeline</h3>
+    <div class="timeline-item">
+        <span>2025 - Present</span>
+        <p>CFD Simulations & Social Service</p>
+    </div>
+</section>
+
+<section class="software-skills">
+    <h3>Software Proficiency</h3>
+    <div class="skills-grid">
+        <div class="skill-icon">Python</div>
+        <div class="skill-icon">OpenFOAM</div>
+    </div>
+</section>
+
+<section class="projects">
+    <h3>Projects</h3>
+    <div class="filter-bar">
+        <button onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('thermal')">Thermal Tools</button>
+        <button onclick="filterProjects('hvac')">HVAC</button>
+        <button onclick="filterProjects('cfd')">CFD</button>
+    </div>
+    
+    <div class="project-container">
+        <div class="project-box cfd">
+            <img src="../images/cfd-thumb.jpg">
+            <h4>OpenFOAM Simulation</h4>
+        </div>
+    </div>
+</section>
